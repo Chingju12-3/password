@@ -1,8 +1,8 @@
 password = "a123456"
 i = 3 #剩餘機會
 while True:
-	pwb = input('請輸入密碼')
-	if pwb == password:
+	密碼 = input('請輸入密碼')
+	if 密碼 == password:
 		print('登入成功')
 		break #逃出迴圈
 	else:
